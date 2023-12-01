@@ -148,8 +148,8 @@ body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background-image: url("images/nature-bg.jpg");
-	/*this uses opacity of 75% for the background color*/
+	background-image: url("images/blue-bg.jpg");
+	/*this identifies the image that I want to chose for my background*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -160,7 +160,7 @@ body {
 	width: 65%;
 	padding: 2%;
 	margin: 100px auto;
-	background: rgba(30, 95, 113, 0.8);
+	background: rgba(36, 73, 103, 0.75);
 	/*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border-radius: 50px 5px 50px 5px;
@@ -202,7 +202,7 @@ body {
 	/* ---------- END of fade in code ------------ */
 
 #logo {
-	width: 45%;
+	width: 40%;
 	margin-bottom: 16px;
 	/* border: 3px dashed red; */
 	text-align: center;
@@ -245,8 +245,8 @@ nav {
 	margin: 0 auto;
 	margin-bottom: 20px;
 	margin-top: -15px;
-	background: rgb(30, 95, 113);
-	/*this is the same color as the center background but with full transparency*/
+	background: rgba(179, 141, 103, 0.75);
+	/*this is the same color as the gold curves in the background image for cohesiveness*/
 	border: solid black;
 	border-radius: 50px 5px 50px 5px;
 	/*this specifies which corners are sharp and which are curved*/
@@ -267,7 +267,7 @@ nav a {
 }
 
 a {
-	color: #a7b184;
+	color: black;
 	text-decoration: none;
 	font-weight: bold;
 	transition: transform .5s;
