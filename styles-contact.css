@@ -160,7 +160,7 @@ body {
 	width: 65%;
 	padding: 2%;
 	margin: 100px auto;
-	background: rgba(36, 73, 103, 0.75);
+	background: rgba(36, 73, 103, 0.9);
 	/*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border-radius: 50px 5px 50px 5px;
@@ -231,6 +231,8 @@ p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: 'Grandiflora One', cursive;
 	font-size: 1.5em;
+	font-weight: bolder;
+	/*the font is pretty light so making the font weight bolder makes the text easier to read*/
 	line-height: 1.5;
 	color: rgb(232, 232, 232);
 	margin-bottom: 15px;
@@ -240,12 +242,13 @@ p {
 nav {
 	font-family: 'Della Respira', serif;
 	font-size: 1.2em;
+	text-shadow: 2px 2px 7px white;
 	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	margin-top: -15px;
-	background: rgba(179, 141, 103, 0.75);
+	background: rgba(222, 174, 126, 0.85);
 	/*this is the same color as the gold curves in the background image for cohesiveness*/
 	border: solid black;
 	border-radius: 50px 5px 50px 5px;
